@@ -5,6 +5,10 @@ void main() {
     home: Scaffold(
       appBar: AppBar(
         title: const Text('my first app'),
+        centerTitle: true,
+      ),
+      body: const Center(
+        child: Text('Hello Brilliant'),
       ),
     ),
   ));
