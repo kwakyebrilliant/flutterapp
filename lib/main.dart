@@ -6,6 +6,7 @@ void main() {
       appBar: AppBar(
         title: const Text('my first app'),
         centerTitle: true,
+        backgroundColor: Colors.red[600],
       ),
       body: const Center(
         child: Text('Hello Brilliant'),
