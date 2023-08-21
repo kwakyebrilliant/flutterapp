@@ -10,6 +10,10 @@ void main() {
       body: const Center(
         child: Text('Hello Brilliant'),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Text('click'),
+      ),
     ),
   ));
 }
