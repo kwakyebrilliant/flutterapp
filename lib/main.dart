@@ -16,15 +16,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: const Center(
-        child: Text(
-          'Hello Brilliant',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey,
-            fontFamily: 'IndieFlower',
-          ),
+        child: Image(
+          image: AssetImage('assets/car.jpeg'),
         ),
       ),
       floatingActionButton: FloatingActionButton(
