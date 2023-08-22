@@ -15,14 +15,9 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(
-        child: IconButton(
-          onPressed: () {
-            print('you clicked me');
-          },
-          icon: const Icon(Icons.alternate_email),
-          color: Colors.amber[800],
-        ),
+      body: const Padding(
+        padding: EdgeInsets.all(30.0),
+        child: Text('data'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
