@@ -9,10 +9,16 @@ void main() {
         backgroundColor: Colors.red[600],
       ),
       body: const Center(
-        child: Text('Hello Brilliant'),
+        child: Text(
+          'Hello Brilliant',
+          style: TextStyle(
+            fontSize: 20.0,
+          ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
+        backgroundColor: Colors.red[600],
         child: const Text('click'),
       ),
     ),
