@@ -26,11 +26,6 @@ class Home extends StatelessWidget {
             ],
           ),
           Container(
-            padding: const EdgeInsets.all(20.0),
-            color: Colors.cyan,
-            child: const Text('one'),
-          ),
-          Container(
             padding: const EdgeInsets.all(30.0),
             color: Colors.amberAccent,
             child: const Text('two'),
@@ -39,6 +34,11 @@ class Home extends StatelessWidget {
             padding: const EdgeInsets.all(40.0),
             color: Colors.pinkAccent,
             child: const Text('three'),
+          ),
+          Container(
+            padding: const EdgeInsets.all(20.0),
+            color: Colors.cyan,
+            child: const Text('one'),
           ),
         ],
       ),
