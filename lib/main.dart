@@ -18,24 +18,31 @@ class Home extends StatelessWidget {
       body: Row(
         children: <Widget>[
           Expanded(
+            flex: 3,
+            child: Image.asset('assets/car.jpeg'),
+          ),
+          Expanded(
+            flex: 1,
             child: Container(
               padding: const EdgeInsets.all(30.0),
               color: Colors.amberAccent,
-              child: const Text('one'),
+              child: const Text('1'),
             ),
           ),
           Expanded(
+            flex: 1,
             child: Container(
               padding: const EdgeInsets.all(30.0),
               color: Colors.cyanAccent,
-              child: const Text('two'),
+              child: const Text('2'),
             ),
           ),
           Expanded(
+            flex: 1,
             child: Container(
               padding: const EdgeInsets.all(30.0),
               color: Colors.pinkAccent,
-              child: const Text('three'),
+              child: const Text('3'),
             ),
           ),
         ],
